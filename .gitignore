@@ -1,0 +1,14 @@
+# Root level
+node_modules/
+.env
+
+# Frontend specific
+apps/frontend/build/
+apps/frontend/.env.local
+
+# Backend specific
+apps/backend/dist/
+apps/backend/.env
+
+# Railway
+.railway/
