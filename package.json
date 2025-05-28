@@ -5,16 +5,6 @@
   "workspaces": [
     "apps/*"
   ],
-  "devDependencies": {
-    "@types/axios": "^0.14.4"
-  },
-  "dependencies": {
-    "@types/express": "^5.0.2",
-    "@types/react-router-dom": "^5.3.3",
-    "axios": "^1.9.0",
-    "express": "^5.1.0",
-    "react-router-dom": "^7.6.0"
-  },
   "scripts": {
     "build": "npm run build:frontend && npm run build:backend",
     "build:frontend": "cd apps/frontend && npm run build",
